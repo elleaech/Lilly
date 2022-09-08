@@ -1,6 +1,6 @@
 from data import ITargetData
 
-class WhoIs:
+class Footprint:
     def __init__(self) -> None:
         self._target = ITargetData()
 

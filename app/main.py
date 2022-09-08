@@ -1,5 +1,5 @@
-from whois import WhoIs
+from footprint import Footprint
 
 if __name__ == "__main__":
-    whoIs = WhoIs()
-    print(whoIs.host("google.com"))
+    footprint = Footprint()
+    print(footprint.host("google.com"))
