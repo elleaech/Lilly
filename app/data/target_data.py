@@ -1,7 +1,6 @@
-import string
-
 class ITargetData:
-    hostname: string
+    hostname: str
 
-def _print_target_data(target_data: ITargetData) -> ITargetData:
-    return target_data.hostname
+    @property
+    def json(self):
+        return self.__dict__["hostname"]

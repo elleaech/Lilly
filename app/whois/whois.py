@@ -1,4 +1,4 @@
-from data import ITargetData, _print_target_data
+from data import ITargetData
 
 class WhoIs:
     def __init__(self) -> None:
@@ -6,4 +6,4 @@ class WhoIs:
 
     def host(self, name: str) -> ITargetData:
         self._target.hostname = name
-        return _print_target_data(self._target)
+        return self._target.json

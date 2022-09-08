@@ -1,1 +1,1 @@
-from .target_data import ITargetData, _print_target_data
+from .target_data import ITargetData
