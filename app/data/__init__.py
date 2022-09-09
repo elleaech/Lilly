@@ -1,1 +1,1 @@
-from .target_data import ITargetData
+from .host_data import IHostData
