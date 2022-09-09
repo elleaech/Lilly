@@ -1,4 +1,4 @@
-from data import IHostData
+from .data import IHostData
 
 class Footprint:
     def __init__(self, hostname: str) -> None:

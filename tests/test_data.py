@@ -1,4 +1,4 @@
-from app.data.data import IData
+from app.footprint import IData
 
 class TestIData:
     def _before_each(self) -> None:
