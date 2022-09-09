@@ -3,4 +3,4 @@ class ITargetData:
 
     @property
     def json(self):
-        return self.__dict__["hostname"]
+        return self.__dict__
