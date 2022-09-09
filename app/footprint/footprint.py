@@ -7,9 +7,10 @@ class Footprint:
 
     def host(self) -> IHostData:
         self._host_data.hostname = self._target
-        self._host_data.ip_address = ["255", "255", "255", "255"]
+        self._host_data.ip_addresses = [["255", "255", "255", "255"]]
         return self._host_data
 
+"""
     def services(self) -> IServicesData:
         pass
 
@@ -21,3 +22,4 @@ class Footprint:
 
     def fingerprint(self) -> IOSData:
         pass
+"""
