@@ -1,4 +1,3 @@
-from data.host_data import IHostData
 from data import IHostData
 
 class Footprint:
@@ -9,7 +8,7 @@ class Footprint:
     def host(self) -> IHostData:
         self._host_data.hostname = self._target
         self._host_data.ip_address = ["255", "255", "255", "255"]
-        return self._host_data.json
+        return self._host_data
 
     def services(self) -> IServicesData:
         pass
