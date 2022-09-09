@@ -1,3 +1,4 @@
+from pprint import pprint
 from footprint import Footprint
 
 if __name__ == "__main__":
@@ -5,6 +6,6 @@ if __name__ == "__main__":
 
     host_data = google.host()
     if host_data.is_resilient():
-        print(host_data.json)
+        pprint(host_data.json)
     else:
         print("Incomplete data!")
